@@ -27,7 +27,7 @@ for (let i = 0; i < demoData.length; i++) {
   div.appendChild(title);
   div.appendChild(info);
 
-  a.href = "#";
+  a.href = element.url;
   a.target = "_blank";
   img.src = element.img;
   img.alt = " ";
